@@ -4,8 +4,16 @@
 int main()
 {
     float n1,n2,n3,n4,n5,T,m,Nh,Nb;
-    printf("veuillez entrer les 5 nots : ");
-    scanf("%f %f %f %f %f",&n1,&n2,&n3,&n4,&n5);
+    printf("veuillez entrez la nommber 1 : ");
+    scanf("%f",&n1);
+    printf("veuillez entrez la nommber 2 : ");
+    scanf("%f",&n2);
+    printf("veuillez entrez la nommber 3 : ");
+    scanf("%f",&n3);
+    printf("veuillez entrez la nommber 4 : ");
+    scanf("%f",&n4);
+    printf("veuillez entrez la nommber 5 : ");
+    scanf("%f",&n5);
     T=n1+n2+n3+n4+n5;
     printf("le Total des notes est : %.2f \n",T);
     m=T/5;
